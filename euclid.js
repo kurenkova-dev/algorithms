@@ -11,5 +11,4 @@ function Euclid(m, n) {
     return Euclid(b, a % b);
   }
  
- console.log(Euclid(9, 6));
- console.log(Euclid(6, 9));
+ console.log(Euclid(20, 6));
