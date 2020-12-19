@@ -8,7 +8,7 @@ function Euclid(m, n) {
     if(n === 0) { return m;}
     
     //рекурсивный случай
-    return Euclid(b, a % b);
+    return Euclid(n, m % n);
   }
  
  console.log(Euclid(20, 6));
